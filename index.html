@@ -36,11 +36,14 @@
         h1 {
             font-size: 2.5em;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 .text-gradient {
             background: linear-gradient(45deg, #ffd700, #ffed4e);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         .points-display {
@@ -207,7 +210,7 @@
 </head>
 <body>
     <div class="casino-container">
-        <h1>🎰 Brenda's Addiction</h1>
+        <h1>🎰 <span class="text-gradient">Brenda's Addiction</span></h1>
         
         <div class="points-display">
             💰 Points: <span id="points">1000</span>
